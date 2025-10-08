@@ -22,14 +22,15 @@ Partial Class UserControlEncabezado
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim SplitContainer2 As System.Windows.Forms.SplitContainer
         Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
         Me.SplitContainer3 = New System.Windows.Forms.SplitContainer()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         Me.lblTituloEncabezadoMenu = New System.Windows.Forms.Label()
-        Me.SplitContainer2 = New System.Windows.Forms.SplitContainer()
         Me.lblTituloEncabezado = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
+        SplitContainer2 = New System.Windows.Forms.SplitContainer()
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
@@ -39,10 +40,10 @@ Partial Class UserControlEncabezado
         Me.SplitContainer3.Panel2.SuspendLayout()
         Me.SplitContainer3.SuspendLayout()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SplitContainer2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer2.Panel1.SuspendLayout()
-        Me.SplitContainer2.Panel2.SuspendLayout()
-        Me.SplitContainer2.SuspendLayout()
+        CType(SplitContainer2, System.ComponentModel.ISupportInitialize).BeginInit()
+        SplitContainer2.Panel1.SuspendLayout()
+        SplitContainer2.Panel2.SuspendLayout()
+        SplitContainer2.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,6 +54,7 @@ Partial Class UserControlEncabezado
         Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.SplitContainer1.Font = New System.Drawing.Font("Verdana", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.SplitContainer1.ImeMode = System.Windows.Forms.ImeMode.[On]
+        Me.SplitContainer1.IsSplitterFixed = True
         Me.SplitContainer1.Location = New System.Drawing.Point(5, 5)
         Me.SplitContainer1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.SplitContainer1.Name = "SplitContainer1"
@@ -65,8 +67,8 @@ Partial Class UserControlEncabezado
         '
         'SplitContainer1.Panel2
         '
-        Me.SplitContainer1.Panel2.Controls.Add(Me.SplitContainer2)
-        Me.SplitContainer1.Size = New System.Drawing.Size(718, 33)
+        Me.SplitContainer1.Panel2.Controls.Add(SplitContainer2)
+        Me.SplitContainer1.Size = New System.Drawing.Size(718, 25)
         Me.SplitContainer1.SplitterDistance = 377
         Me.SplitContainer1.SplitterWidth = 1
         Me.SplitContainer1.TabIndex = 0
@@ -74,6 +76,7 @@ Partial Class UserControlEncabezado
         'SplitContainer3
         '
         Me.SplitContainer3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer3.IsSplitterFixed = True
         Me.SplitContainer3.Location = New System.Drawing.Point(0, 0)
         Me.SplitContainer3.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.SplitContainer3.Name = "SplitContainer3"
@@ -86,7 +89,7 @@ Partial Class UserControlEncabezado
         'SplitContainer3.Panel2
         '
         Me.SplitContainer3.Panel2.Controls.Add(Me.lblTituloEncabezadoMenu)
-        Me.SplitContainer3.Size = New System.Drawing.Size(377, 33)
+        Me.SplitContainer3.Size = New System.Drawing.Size(377, 25)
         Me.SplitContainer3.SplitterDistance = 92
         Me.SplitContainer3.SplitterWidth = 1
         Me.SplitContainer3.TabIndex = 1
@@ -98,7 +101,7 @@ Partial Class UserControlEncabezado
         Me.PictureBox2.Location = New System.Drawing.Point(15, 10)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(62, 13)
+        Me.PictureBox2.Size = New System.Drawing.Size(62, 5)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
@@ -109,7 +112,7 @@ Partial Class UserControlEncabezado
         Me.lblTituloEncabezadoMenu.AutoSize = True
         Me.lblTituloEncabezadoMenu.Cursor = System.Windows.Forms.Cursors.Default
         Me.lblTituloEncabezadoMenu.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTituloEncabezadoMenu.Location = New System.Drawing.Point(7, 10)
+        Me.lblTituloEncabezadoMenu.Location = New System.Drawing.Point(7, 6)
         Me.lblTituloEncabezadoMenu.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTituloEncabezadoMenu.Name = "lblTituloEncabezadoMenu"
         Me.lblTituloEncabezadoMenu.Size = New System.Drawing.Size(105, 18)
@@ -118,31 +121,32 @@ Partial Class UserControlEncabezado
         '
         'SplitContainer2
         '
-        Me.SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer2.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
-        Me.SplitContainer2.Name = "SplitContainer2"
+        SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill
+        SplitContainer2.IsSplitterFixed = True
+        SplitContainer2.Location = New System.Drawing.Point(0, 0)
+        SplitContainer2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        SplitContainer2.Name = "SplitContainer2"
         '
         'SplitContainer2.Panel1
         '
-        Me.SplitContainer2.Panel1.Controls.Add(Me.lblTituloEncabezado)
-        Me.SplitContainer2.Panel1.Cursor = System.Windows.Forms.Cursors.VSplit
+        SplitContainer2.Panel1.Controls.Add(Me.lblTituloEncabezado)
+        SplitContainer2.Panel1.Cursor = System.Windows.Forms.Cursors.Default
         '
         'SplitContainer2.Panel2
         '
-        Me.SplitContainer2.Panel2.Controls.Add(Me.PictureBox1)
-        Me.SplitContainer2.Panel2.Padding = New System.Windows.Forms.Padding(5)
-        Me.SplitContainer2.Size = New System.Drawing.Size(340, 33)
-        Me.SplitContainer2.SplitterDistance = 289
-        Me.SplitContainer2.SplitterWidth = 1
-        Me.SplitContainer2.TabIndex = 0
+        SplitContainer2.Panel2.Controls.Add(Me.PictureBox1)
+        SplitContainer2.Panel2.Padding = New System.Windows.Forms.Padding(5)
+        SplitContainer2.Size = New System.Drawing.Size(340, 25)
+        SplitContainer2.SplitterDistance = 289
+        SplitContainer2.SplitterWidth = 1
+        SplitContainer2.TabIndex = 0
         '
         'lblTituloEncabezado
         '
         Me.lblTituloEncabezado.Anchor = System.Windows.Forms.AnchorStyles.Right
         Me.lblTituloEncabezado.AutoSize = True
         Me.lblTituloEncabezado.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTituloEncabezado.Location = New System.Drawing.Point(132, 10)
+        Me.lblTituloEncabezado.Location = New System.Drawing.Point(132, 6)
         Me.lblTituloEncabezado.Name = "lblTituloEncabezado"
         Me.lblTituloEncabezado.Size = New System.Drawing.Size(154, 18)
         Me.lblTituloEncabezado.TabIndex = 0
@@ -155,7 +159,7 @@ Partial Class UserControlEncabezado
         Me.PictureBox1.Location = New System.Drawing.Point(5, 5)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(40, 23)
+        Me.PictureBox1.Size = New System.Drawing.Size(40, 15)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -184,7 +188,7 @@ Partial Class UserControlEncabezado
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "UserControlEncabezado"
         Me.Padding = New System.Windows.Forms.Padding(5)
-        Me.Size = New System.Drawing.Size(728, 43)
+        Me.Size = New System.Drawing.Size(728, 35)
         Me.SplitContainer1.Panel1.ResumeLayout(False)
         Me.SplitContainer1.Panel2.ResumeLayout(False)
         CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -195,11 +199,11 @@ Partial Class UserControlEncabezado
         CType(Me.SplitContainer3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.SplitContainer3.ResumeLayout(False)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer2.Panel1.ResumeLayout(False)
-        Me.SplitContainer2.Panel1.PerformLayout()
-        Me.SplitContainer2.Panel2.ResumeLayout(False)
-        CType(Me.SplitContainer2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer2.ResumeLayout(False)
+        SplitContainer2.Panel1.ResumeLayout(False)
+        SplitContainer2.Panel1.PerformLayout()
+        SplitContainer2.Panel2.ResumeLayout(False)
+        CType(SplitContainer2, System.ComponentModel.ISupportInitialize).EndInit()
+        SplitContainer2.ResumeLayout(False)
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
@@ -207,7 +211,6 @@ Partial Class UserControlEncabezado
     End Sub
 
     Friend WithEvents SplitContainer1 As SplitContainer
-    Friend WithEvents SplitContainer2 As SplitContainer
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
     Friend WithEvents SplitContainer3 As SplitContainer

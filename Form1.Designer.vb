@@ -43,8 +43,8 @@ Partial Class Form1
         '
         Me.SplitContainer1.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(17, Byte), Integer))
         Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer1.IsSplitterFixed = True
         Me.SplitContainer1.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer1.Margin = New System.Windows.Forms.Padding(2)
         Me.SplitContainer1.Name = "SplitContainer1"
         '
         'SplitContainer1.Panel1
@@ -56,24 +56,26 @@ Partial Class Form1
         'SplitContainer1.Panel2
         '
         Me.SplitContainer1.Panel2.Controls.Add(Me.SplitContainer2)
-        Me.SplitContainer1.Size = New System.Drawing.Size(893, 376)
-        Me.SplitContainer1.SplitterDistance = 153
-        Me.SplitContainer1.SplitterWidth = 3
+        Me.SplitContainer1.Size = New System.Drawing.Size(1340, 578)
+        Me.SplitContainer1.SplitterDistance = 229
         Me.SplitContainer1.TabIndex = 0
         '
         'SplitContainer3
         '
         Me.SplitContainer3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer3.IsSplitterFixed = True
         Me.SplitContainer3.Location = New System.Drawing.Point(0, 0)
+        Me.SplitContainer3.Margin = New System.Windows.Forms.Padding(4, 5, 4, 5)
         Me.SplitContainer3.Name = "SplitContainer3"
         Me.SplitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal
         '
         'SplitContainer3.Panel2
         '
         Me.SplitContainer3.Panel2.Controls.Add(Me.UserControlNavegacion1)
-        Me.SplitContainer3.Panel2.Padding = New System.Windows.Forms.Padding(5)
-        Me.SplitContainer3.Size = New System.Drawing.Size(153, 376)
-        Me.SplitContainer3.SplitterDistance = 53
+        Me.SplitContainer3.Panel2.Padding = New System.Windows.Forms.Padding(8, 8, 8, 8)
+        Me.SplitContainer3.Size = New System.Drawing.Size(229, 578)
+        Me.SplitContainer3.SplitterDistance = 57
+        Me.SplitContainer3.SplitterWidth = 1
         Me.SplitContainer3.TabIndex = 0
         '
         'UserControlNavegacion1
@@ -81,18 +83,17 @@ Partial Class Form1
         Me.UserControlNavegacion1.BackColor = System.Drawing.Color.FromArgb(CType(CType(241, Byte), Integer), CType(CType(152, Byte), Integer), CType(CType(17, Byte), Integer))
         Me.UserControlNavegacion1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.UserControlNavegacion1.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UserControlNavegacion1.Location = New System.Drawing.Point(5, 5)
-        Me.UserControlNavegacion1.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
+        Me.UserControlNavegacion1.Location = New System.Drawing.Point(8, 8)
+        Me.UserControlNavegacion1.Margin = New System.Windows.Forms.Padding(8, 6, 8, 6)
         Me.UserControlNavegacion1.Name = "UserControlNavegacion1"
-        Me.UserControlNavegacion1.Padding = New System.Windows.Forms.Padding(10, 56, 10, 56)
-        Me.UserControlNavegacion1.Size = New System.Drawing.Size(143, 309)
+        Me.UserControlNavegacion1.Size = New System.Drawing.Size(213, 504)
         Me.UserControlNavegacion1.TabIndex = 0
         '
         'SplitContainer2
         '
         Me.SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.SplitContainer2.IsSplitterFixed = True
         Me.SplitContainer2.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer2.Margin = New System.Windows.Forms.Padding(2)
         Me.SplitContainer2.Name = "SplitContainer2"
         Me.SplitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal
         '
@@ -104,10 +105,10 @@ Partial Class Form1
         'SplitContainer2.Panel2
         '
         Me.SplitContainer2.Panel2.BackColor = System.Drawing.Color.White
-        Me.SplitContainer2.Panel2.Padding = New System.Windows.Forms.Padding(5)
-        Me.SplitContainer2.Size = New System.Drawing.Size(737, 376)
-        Me.SplitContainer2.SplitterDistance = 54
-        Me.SplitContainer2.SplitterWidth = 3
+        Me.SplitContainer2.Panel2.Padding = New System.Windows.Forms.Padding(8, 8, 8, 8)
+        Me.SplitContainer2.Size = New System.Drawing.Size(1107, 578)
+        Me.SplitContainer2.SplitterDistance = 52
+        Me.SplitContainer2.SplitterWidth = 5
         Me.SplitContainer2.TabIndex = 0
         '
         'UserControlEncabezado1
@@ -117,20 +118,19 @@ Partial Class Form1
         Me.UserControlEncabezado1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.UserControlEncabezado1.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.UserControlEncabezado1.Location = New System.Drawing.Point(0, 0)
-        Me.UserControlEncabezado1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
+        Me.UserControlEncabezado1.Margin = New System.Windows.Forms.Padding(6, 5, 6, 5)
         Me.UserControlEncabezado1.Name = "UserControlEncabezado1"
-        Me.UserControlEncabezado1.Padding = New System.Windows.Forms.Padding(5)
-        Me.UserControlEncabezado1.Size = New System.Drawing.Size(737, 54)
+        Me.UserControlEncabezado1.Padding = New System.Windows.Forms.Padding(8, 8, 8, 8)
+        Me.UserControlEncabezado1.Size = New System.Drawing.Size(1107, 52)
         Me.UserControlEncabezado1.TabIndex = 0
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.AutoScroll = True
-        Me.ClientSize = New System.Drawing.Size(893, 376)
+        Me.ClientSize = New System.Drawing.Size(1340, 578)
         Me.Controls.Add(Me.SplitContainer1)
-        Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Formulario de Administrador "
