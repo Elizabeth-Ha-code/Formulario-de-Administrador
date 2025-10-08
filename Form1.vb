@@ -1,10 +1,10 @@
 ﻿Public Class Form1
 
     ' --- Instancias de los UserControls de contenido ---
-    Private ucGestionar As New UserControlContenidoGestionarCatálogo()
-    Private ucPrestamo As New UserControlContenidoPrestamo()
+    Private ucGestionar As New UserControlContenidoGestionarCatálogo1()
+    Private ucPrestamo As New UserControlContenidoPrestamo1()
     Private ucReportes As New UserControlContenidoReportes1()
-    Private ucSolicitud As New UserControlContenidoSolicitudDeLibro()
+    Private ucSolicitud As New UserControlContenidoSolicitudDeLibro1()
     Private ucConsulta As New UserControlContenidoConsultas1()
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load

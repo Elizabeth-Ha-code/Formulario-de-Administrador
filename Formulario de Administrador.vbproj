@@ -101,28 +101,28 @@
     <Compile Include="UserControlContenidoConsultas1.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="UserControlContenidoGestionarCatálogo1.Designer.vb">
+      <DependentUpon>UserControlContenidoGestionarCatálogo1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoGestionarCatálogo1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlContenidoPrestamo1.Designer.vb">
+      <DependentUpon>UserControlContenidoPrestamo1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoPrestamo1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="UserControlContenidoReportes1.Designer.vb">
       <DependentUpon>UserControlContenidoReportes1.vb</DependentUpon>
     </Compile>
     <Compile Include="UserControlContenidoReportes1.vb">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="UserControlContenidoSolicitudDeLibro.Designer.vb">
-      <DependentUpon>UserControlContenidoSolicitudDeLibro.vb</DependentUpon>
+    <Compile Include="UserControlContenidoSolicitudDeLibro1.Designer.vb">
+      <DependentUpon>UserControlContenidoSolicitudDeLibro1.vb</DependentUpon>
     </Compile>
-    <Compile Include="UserControlContenidoSolicitudDeLibro.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControlContenidoGestionarCatálogo.Designer.vb">
-      <DependentUpon>UserControlContenidoGestionarCatálogo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlContenidoGestionarCatálogo.vb">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControlContenidoPrestamo.Designer.vb">
-      <DependentUpon>UserControlContenidoPrestamo.vb</DependentUpon>
-    </Compile>
-    <Compile Include="UserControlContenidoPrestamo.vb">
+    <Compile Include="UserControlContenidoSolicitudDeLibro1.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlEncabezado.Designer.vb">
@@ -148,14 +148,11 @@
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControlContenidoSolicitudDeLibro.resx">
-      <DependentUpon>UserControlContenidoSolicitudDeLibro.vb</DependentUpon>
+    <EmbeddedResource Include="UserControlContenidoGestionarCatálogo1.resx">
+      <DependentUpon>UserControlContenidoGestionarCatálogo1.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UserControlContenidoGestionarCatálogo.resx">
-      <DependentUpon>UserControlContenidoGestionarCatálogo.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UserControlContenidoPrestamo.resx">
-      <DependentUpon>UserControlContenidoPrestamo.vb</DependentUpon>
+    <EmbeddedResource Include="UserControlContenidoReportes1.resx">
+      <DependentUpon>UserControlContenidoReportes1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlEncabezado.resx">
       <DependentUpon>UserControlEncabezado.vb</DependentUpon>

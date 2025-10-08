@@ -125,7 +125,7 @@ Partial Class UserControlNavegacion
         '
         'btn_NavSOLICITUDToolStripMenuItem
         '
-        Me.btn_NavSOLICITUDToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.icoPrestamos
+        Me.btn_NavSOLICITUDToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.icoPrestamo
         Me.btn_NavSOLICITUDToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavSOLICITUDToolStripMenuItem.Name = "btn_NavSOLICITUDToolStripMenuItem"
         Me.btn_NavSOLICITUDToolStripMenuItem.Size = New System.Drawing.Size(199, 28)
