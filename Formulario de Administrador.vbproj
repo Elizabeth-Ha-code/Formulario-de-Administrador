@@ -147,7 +147,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icoPerfil.png" />
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoPrestamos.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icomensajería.png" />
@@ -159,10 +162,16 @@
     <None Include="Resources\icoGestionarCatálogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icoReportes.png" />
+    <None Include="Resources\icoLibros.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icoLibros.png" />
+    <None Include="Resources\icoSolicitud.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoClientes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icoInicio.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icoLibro.png" />
@@ -171,13 +180,16 @@
     <None Include="Resources\icoVista.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icoClientes.png" />
+    <None Include="Resources\icoPrestamo.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icoSolicitud.png" />
+    <None Include="Resources\icoPerfil.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\icoInicio.png" />
+    <None Include="Resources\icoReportes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\libro.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

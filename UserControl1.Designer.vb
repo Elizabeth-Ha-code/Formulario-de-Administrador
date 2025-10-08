@@ -133,7 +133,7 @@ Partial Class UserControl1
         '
         Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button1.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.Button1.Location = New System.Drawing.Point(10, 13)
+        Me.Button1.Location = New System.Drawing.Point(11, 10)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(126, 23)
         Me.Button1.TabIndex = 0
