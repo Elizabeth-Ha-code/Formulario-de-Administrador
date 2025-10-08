@@ -24,7 +24,7 @@
             Case "btn_NavLIBROSToolStripMenuItem"
                 RaiseEvent ItemSeleccionado(My.Resources.icoLibros, "Libros")
             Case "btn_NavPRESTAMOSToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoPrestamos, "Préstamos")
+                RaiseEvent ItemSeleccionado(My.Resources.icoPrestamo, "Préstamos")
             Case "btn_NavMENSAJERÍAToolStripMenuItem"
                 RaiseEvent ItemSeleccionado(My.Resources.icomensajería, "Mensajería")
             Case "btn_NavCLIENTESToolStripMenuItem"

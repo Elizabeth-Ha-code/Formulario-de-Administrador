@@ -1,6 +1,5 @@
-﻿Imports System.Reflection.Emit
-'FOMULARIO DE CONTENIDO
-Public Class UserControl1
+﻿'FOMULARIO DE CONTENIDO
+Public Class UserControlContenidoReportes
     ' Cambia el texto del Label1 por el título  de la pestaña seleccionada
     Private Sub TabControl1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles TabControl1.SelectedIndexChanged
 
@@ -34,6 +33,13 @@ Public Class UserControl1
         Label1.Font = New Font(Label1.Font.FontFamily, Math.Max(6, tamañoOriginal * factor), Label1.Font.Style)
     End Sub
 
+    Private Sub SplitContainer1_SplitterMoved(sender As Object, e As SplitterEventArgs) Handles SplitContainer1.SplitterMoved
+
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+
+    End Sub
 End Class
 
 
