@@ -1,8 +1,13 @@
 ﻿Public Class Formulario_Bibliotecario
-    Private ucGestionar As New UserControlContenidoGestionarCatálogo1()
+    Private ucInicio As New UserControlContenidoInicio1()
+    Private ucLibro As New UserControlContenidoLibros1()
     Private ucPrestamo As New UserControlContenidoPrestamo1()
+    Private ucMensajeria As New UserControlContenidoMensajeria1()
+    Private ucClientes As New UserControlContenidoClientes1()
+    Private ucVistas As New UserControlContenidoVistas1()
     Private ucReportes As New UserControlContenidoReportes1()
     Private ucSolicitud As New UserControlContenidoSolicitudDeLibro1()
+    Private ucGestionar As New UserControlContenidoGestionarCatálogo1()
     Private ucConsulta As New UserControlContenidoConsultas1()
 
 
@@ -32,16 +37,27 @@
         Panel1.Controls.Clear()
 
         Select Case texto
-            Case "Gestión de Catálogo"
-                Panel1.Controls.Add(ucGestionar)
-            Case "Préstamos"
+            Case "iNICIO"
+                Panel1.Controls.Add(ucInicio)
+            Case "LIBROS"
+                Panel1.Controls.Add(ucLibro)
+            Case "PRÉSTAMOS"
                 Panel1.Controls.Add(ucPrestamo)
-            Case "Reportes"
+            Case "MENSAJERÍA"
+                Panel1.Controls.Add(ucMensajeria)
+            Case "CLIENTES"
+                Panel1.Controls.Add(ucClientes)
+            Case "VISTAS"
+                Panel1.Controls.Add(ucVistas)
+            Case "REPORTES"
                 Panel1.Controls.Add(ucReportes)
-            Case "Solicitud de Libro"
+            Case "SOLICITUD DE LIBROS"
                 Panel1.Controls.Add(ucSolicitud)
-            Case "Consultas"
+            Case "GESTIÓN DE CATÁLOGO"
+                Panel1.Controls.Add(ucGestionar)
+            Case "CONSULTAS"
                 Panel1.Controls.Add(ucConsulta)
+
             Case Else
                 Panel1.Controls.Add(New Label With {
                     .Text = "Vista no disponible.",

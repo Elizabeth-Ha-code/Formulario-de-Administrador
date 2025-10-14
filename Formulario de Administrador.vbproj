@@ -95,6 +95,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UserControlContenidoClientes1.Designer.vb">
+      <DependentUpon>UserControlContenidoClientes1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoClientes1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="UserControlContenidoConsultas1.Designer.vb">
       <DependentUpon>UserControlContenidoConsultas1.vb</DependentUpon>
     </Compile>
@@ -105,6 +111,18 @@
       <DependentUpon>UserControlContenidoGestionarCatálogo1.vb</DependentUpon>
     </Compile>
     <Compile Include="UserControlContenidoGestionarCatálogo1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlContenidoInicio1.Designer.vb">
+      <DependentUpon>UserControlContenidoInicio1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoInicio1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlContenidoLibros1.Designer.vb">
+      <DependentUpon>UserControlContenidoLibros1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoLibros1.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlContenidoMensajeria1.Designer.vb">
