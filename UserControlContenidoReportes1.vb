@@ -5,32 +5,11 @@
         lblTituloTabControl.Text = TabControl1.SelectedTab.Text
     End Sub
 
+    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs)
 
-    Private tamañoOriginal As Single
-    Private tamañoOriginalPanel As Size
-    ' Guardamos tamaño original de la fuente
-    ' Guardamos tamaño original del panel donde está el Label
-    ' Suscribirse al evento Resize del panel contenedor
-    Private Sub UserControl1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
-        tamañoOriginal = lblTituloTabControl.Font.Size
-
-        tamañoOriginalPanel = lblTituloTabControl.Parent.ClientSize
-
-
-        AddHandler lblTituloTabControl.Parent.Resize, AddressOf AjustarLabel
-    End Sub
-    ' Calculamos el factor de escalado basado en el ancho del panel
-
-    Private Sub AjustarLabel(sender As Object, e As EventArgs)
-
-        Dim factorAncho As Single = lblTituloTabControl.Parent.ClientSize.Width / tamañoOriginalPanel.Width
-        Dim factorAlto As Single = lblTituloTabControl.Parent.ClientSize.Height / tamañoOriginalPanel.Height
-
-        Dim factor As Single = Math.Min(factorAncho, factorAlto)
-
-        lblTituloTabControl.Font = New Font(lblTituloTabControl.Font.FontFamily, Math.Max(6, tamañoOriginal * factor), lblTituloTabControl.Font.Style)
     End Sub
 
+    Private Sub lblTituloTabControl_Click(sender As Object, e As EventArgs) Handles lblTituloTabControl.Click
 
+    End Sub
 End Class

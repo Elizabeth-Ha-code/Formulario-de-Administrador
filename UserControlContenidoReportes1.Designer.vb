@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class UserControlContenidoReportes1
     Inherits System.Windows.Forms.UserControl
 
     'UserControl reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,142 +20,58 @@ Partial Class UserControlContenidoReportes1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
-        Me.SplitContainer2 = New System.Windows.Forms.SplitContainer()
-        Me.SplitContainer3 = New System.Windows.Forms.SplitContainer()
-        Me.lblTituloTabControl = New System.Windows.Forms.Label()
-        Me.btn_DescargarReporte = New System.Windows.Forms.Button()
+        Me.TableLayoutPanel2 = New System.Windows.Forms.TableLayoutPanel()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
-        Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.TabPage3 = New System.Windows.Forms.TabPage()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.SplitContainer4 = New System.Windows.Forms.SplitContainer()
+        Me.TabPage3 = New System.Windows.Forms.TabPage()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.TabPage1 = New System.Windows.Forms.TabPage()
+        Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
+        Me.btnDescargarReportes = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
-        Me.SplitContainer5 = New System.Windows.Forms.SplitContainer()
+        Me.lblTituloTabControl = New System.Windows.Forms.Label()
+        Me.TableLayoutPanel3 = New System.Windows.Forms.TableLayoutPanel()
         Me.DataGridView2 = New System.Windows.Forms.DataGridView()
-        Me.SplitContainer6 = New System.Windows.Forms.SplitContainer()
-        Me.ListView1 = New System.Windows.Forms.ListView()
-        Me.SplitContainer7 = New System.Windows.Forms.SplitContainer()
+        Me.Button1 = New System.Windows.Forms.Button()
+        Me.TableLayoutPanel4 = New System.Windows.Forms.TableLayoutPanel()
         Me.DataGridView3 = New System.Windows.Forms.DataGridView()
-        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer1.Panel1.SuspendLayout()
-        Me.SplitContainer1.Panel2.SuspendLayout()
-        Me.SplitContainer1.SuspendLayout()
-        CType(Me.SplitContainer2, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer2.Panel2.SuspendLayout()
-        Me.SplitContainer2.SuspendLayout()
-        CType(Me.SplitContainer3, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer3.Panel1.SuspendLayout()
-        Me.SplitContainer3.Panel2.SuspendLayout()
-        Me.SplitContainer3.SuspendLayout()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.TableLayoutPanel5 = New System.Windows.Forms.TableLayoutPanel()
+        Me.DataGridView4 = New System.Windows.Forms.DataGridView()
+        Me.Button3 = New System.Windows.Forms.Button()
+        Me.TableLayoutPanel2.SuspendLayout()
         Me.TabControl1.SuspendLayout()
-        Me.TabPage1.SuspendLayout()
-        Me.TabPage2.SuspendLayout()
-        Me.TabPage3.SuspendLayout()
         Me.TabPage4.SuspendLayout()
-        CType(Me.SplitContainer4, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer4.Panel2.SuspendLayout()
-        Me.SplitContainer4.SuspendLayout()
+        Me.TabPage3.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
+        Me.TabPage1.SuspendLayout()
+        Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SplitContainer5, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer5.Panel2.SuspendLayout()
-        Me.SplitContainer5.SuspendLayout()
+        Me.TableLayoutPanel3.SuspendLayout()
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.SplitContainer6, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer6.Panel2.SuspendLayout()
-        Me.SplitContainer6.SuspendLayout()
-        CType(Me.SplitContainer7, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.SplitContainer7.Panel2.SuspendLayout()
-        Me.SplitContainer7.SuspendLayout()
+        Me.TableLayoutPanel4.SuspendLayout()
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TableLayoutPanel5.SuspendLayout()
+        CType(Me.DataGridView4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'SplitContainer1
+        'TableLayoutPanel2
         '
-        Me.SplitContainer1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer1.IsSplitterFixed = True
-        Me.SplitContainer1.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer1.Margin = New System.Windows.Forms.Padding(2)
-        Me.SplitContainer1.Name = "SplitContainer1"
-        Me.SplitContainer1.Orientation = System.Windows.Forms.Orientation.Horizontal
-        '
-        'SplitContainer1.Panel1
-        '
-        Me.SplitContainer1.Panel1.Controls.Add(Me.SplitContainer2)
-        '
-        'SplitContainer1.Panel2
-        '
-        Me.SplitContainer1.Panel2.Controls.Add(Me.TabControl1)
-        Me.SplitContainer1.Size = New System.Drawing.Size(608, 385)
-        Me.SplitContainer1.SplitterDistance = 64
-        Me.SplitContainer1.SplitterWidth = 2
-        Me.SplitContainer1.TabIndex = 0
-        '
-        'SplitContainer2
-        '
-        Me.SplitContainer2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer2.IsSplitterFixed = True
-        Me.SplitContainer2.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer2.Margin = New System.Windows.Forms.Padding(2)
-        Me.SplitContainer2.Name = "SplitContainer2"
-        '
-        'SplitContainer2.Panel2
-        '
-        Me.SplitContainer2.Panel2.Controls.Add(Me.SplitContainer3)
-        Me.SplitContainer2.Size = New System.Drawing.Size(608, 64)
-        Me.SplitContainer2.SplitterDistance = 108
-        Me.SplitContainer2.SplitterWidth = 3
-        Me.SplitContainer2.TabIndex = 0
-        '
-        'SplitContainer3
-        '
-        Me.SplitContainer3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer3.IsSplitterFixed = True
-        Me.SplitContainer3.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer3.Margin = New System.Windows.Forms.Padding(2)
-        Me.SplitContainer3.Name = "SplitContainer3"
-        '
-        'SplitContainer3.Panel1
-        '
-        Me.SplitContainer3.Panel1.Controls.Add(Me.lblTituloTabControl)
-        '
-        'SplitContainer3.Panel2
-        '
-        Me.SplitContainer3.Panel2.Controls.Add(Me.btn_DescargarReporte)
-        Me.SplitContainer3.Size = New System.Drawing.Size(497, 64)
-        Me.SplitContainer3.SplitterDistance = 375
-        Me.SplitContainer3.SplitterWidth = 3
-        Me.SplitContainer3.TabIndex = 0
-        '
-        'lblTituloTabControl
-        '
-        Me.lblTituloTabControl.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.lblTituloTabControl.AutoSize = True
-        Me.lblTituloTabControl.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblTituloTabControl.Location = New System.Drawing.Point(181, 28)
-        Me.lblTituloTabControl.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
-        Me.lblTituloTabControl.Name = "lblTituloTabControl"
-        Me.lblTituloTabControl.Size = New System.Drawing.Size(0, 16)
-        Me.lblTituloTabControl.TabIndex = 0
-        '
-        'btn_DescargarReporte
-        '
-        Me.btn_DescargarReporte.Anchor = System.Windows.Forms.AnchorStyles.Top
-        Me.btn_DescargarReporte.BackColor = System.Drawing.Color.Lavender
-        Me.btn_DescargarReporte.Font = New System.Drawing.Font("Microsoft Sans Serif", 6.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btn_DescargarReporte.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.btn_DescargarReporte.Location = New System.Drawing.Point(19, 14)
-        Me.btn_DescargarReporte.Margin = New System.Windows.Forms.Padding(2)
-        Me.btn_DescargarReporte.Name = "btn_DescargarReporte"
-        Me.btn_DescargarReporte.Size = New System.Drawing.Size(87, 40)
-        Me.btn_DescargarReporte.TabIndex = 0
-        Me.btn_DescargarReporte.Text = "DESCARGAR REPORTES"
-        Me.btn_DescargarReporte.UseVisualStyleBackColor = False
+        Me.TableLayoutPanel2.ColumnCount = 1
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel2.Controls.Add(Me.TabControl1, 0, 1)
+        Me.TableLayoutPanel2.Controls.Add(Me.lblTituloTabControl, 0, 0)
+        Me.TableLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel2.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel2.Name = "TableLayoutPanel2"
+        Me.TableLayoutPanel2.RowCount = 2
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 10.03086!))
+        Me.TableLayoutPanel2.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 89.96914!))
+        Me.TableLayoutPanel2.Size = New System.Drawing.Size(1073, 648)
+        Me.TableLayoutPanel2.TabIndex = 1
         '
         'TabControl1
         '
@@ -167,232 +83,287 @@ Partial Class UserControlContenidoReportes1
         Me.TabControl1.Font = New System.Drawing.Font("Verdana", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TabControl1.HotTrack = True
         Me.TabControl1.ImeMode = System.Windows.Forms.ImeMode.Katakana
-        Me.TabControl1.Location = New System.Drawing.Point(0, 0)
+        Me.TabControl1.Location = New System.Drawing.Point(2, 66)
         Me.TabControl1.Margin = New System.Windows.Forms.Padding(2)
         Me.TabControl1.Multiline = True
         Me.TabControl1.Name = "TabControl1"
         Me.TabControl1.SelectedIndex = 0
-        Me.TabControl1.Size = New System.Drawing.Size(608, 319)
+        Me.TabControl1.Size = New System.Drawing.Size(1069, 580)
         Me.TabControl1.TabIndex = 0
-        '
-        'TabPage1
-        '
-        Me.TabPage1.Controls.Add(Me.SplitContainer4)
-        Me.TabPage1.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2)
-        Me.TabPage1.Name = "TabPage1"
-        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage1.Size = New System.Drawing.Size(600, 293)
-        Me.TabPage1.TabIndex = 0
-        Me.TabPage1.Text = "RESUMEN DE INFORME"
-        Me.TabPage1.UseVisualStyleBackColor = True
-        '
-        'TabPage2
-        '
-        Me.TabPage2.Controls.Add(Me.SplitContainer5)
-        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2)
-        Me.TabPage2.Name = "TabPage2"
-        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2)
-        Me.TabPage2.Size = New System.Drawing.Size(600, 293)
-        Me.TabPage2.TabIndex = 1
-        Me.TabPage2.Text = "ACTIVIDAD SEMANAL"
-        Me.TabPage2.UseVisualStyleBackColor = True
-        '
-        'TabPage3
-        '
-        Me.TabPage3.Controls.Add(Me.SplitContainer6)
-        Me.TabPage3.Location = New System.Drawing.Point(4, 22)
-        Me.TabPage3.Margin = New System.Windows.Forms.Padding(2)
-        Me.TabPage3.Name = "TabPage3"
-        Me.TabPage3.Size = New System.Drawing.Size(600, 293)
-        Me.TabPage3.TabIndex = 2
-        Me.TabPage3.Text = "LIBROS MÁS SOLICITADOS"
-        Me.TabPage3.UseVisualStyleBackColor = True
         '
         'TabPage4
         '
-        Me.TabPage4.Controls.Add(Me.SplitContainer7)
-        Me.TabPage4.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage4.Controls.Add(Me.TableLayoutPanel5)
+        Me.TabPage4.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabPage4.Location = New System.Drawing.Point(4, 29)
         Me.TabPage4.Margin = New System.Windows.Forms.Padding(2)
         Me.TabPage4.Name = "TabPage4"
-        Me.TabPage4.Size = New System.Drawing.Size(600, 293)
+        Me.TabPage4.Size = New System.Drawing.Size(1061, 547)
         Me.TabPage4.TabIndex = 3
         Me.TabPage4.Text = "MULTAS POR USUARIO"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
-        'SplitContainer4
+        'TabPage3
         '
-        Me.SplitContainer4.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer4.Location = New System.Drawing.Point(2, 2)
-        Me.SplitContainer4.Name = "SplitContainer4"
+        Me.TabPage3.Controls.Add(Me.TableLayoutPanel4)
+        Me.TabPage3.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabPage3.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage3.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage3.Name = "TabPage3"
+        Me.TabPage3.Size = New System.Drawing.Size(1061, 547)
+        Me.TabPage3.TabIndex = 2
+        Me.TabPage3.Text = "LIBROS MÁS SOLICITADOS"
+        Me.TabPage3.UseVisualStyleBackColor = True
         '
-        'SplitContainer4.Panel1
+        'TabPage2
         '
-        Me.SplitContainer4.Panel1.BackColor = System.Drawing.Color.Lavender
+        Me.TabPage2.Controls.Add(Me.TableLayoutPanel3)
+        Me.TabPage2.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabPage2.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage2.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(2)
+        Me.TabPage2.Size = New System.Drawing.Size(1061, 547)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.Text = "ACTIVIDAD SEMANAL"
+        Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'SplitContainer4.Panel2
+        'TabPage1
         '
-        Me.SplitContainer4.Panel2.Controls.Add(Me.DataGridView1)
-        Me.SplitContainer4.Size = New System.Drawing.Size(596, 289)
-        Me.SplitContainer4.SplitterDistance = 107
-        Me.SplitContainer4.TabIndex = 0
+        Me.TabPage1.Controls.Add(Me.TableLayoutPanel1)
+        Me.TabPage1.Font = New System.Drawing.Font("Verdana", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TabPage1.Location = New System.Drawing.Point(4, 29)
+        Me.TabPage1.Margin = New System.Windows.Forms.Padding(2)
+        Me.TabPage1.Name = "TabPage1"
+        Me.TabPage1.Padding = New System.Windows.Forms.Padding(2)
+        Me.TabPage1.Size = New System.Drawing.Size(1061, 547)
+        Me.TabPage1.TabIndex = 0
+        Me.TabPage1.Text = "RESUMEN DE INFORME"
+        Me.TabPage1.UseVisualStyleBackColor = True
+        '
+        'TableLayoutPanel1
+        '
+        Me.TableLayoutPanel1.ColumnCount = 2
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.38573!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.61427!))
+        Me.TableLayoutPanel1.Controls.Add(Me.DataGridView1, 0, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.btnDescargarReportes, 1, 0)
+        Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel1.Location = New System.Drawing.Point(2, 2)
+        Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
+        Me.TableLayoutPanel1.RowCount = 1
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1057, 543)
+        Me.TableLayoutPanel1.TabIndex = 0
+        '
+        'btnDescargarReportes
+        '
+        Me.btnDescargarReportes.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.btnDescargarReportes.BackColor = System.Drawing.Color.Lavender
+        Me.btnDescargarReportes.Font = New System.Drawing.Font("Verdana", 7.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDescargarReportes.ForeColor = System.Drawing.Color.Black
+        Me.btnDescargarReportes.Location = New System.Drawing.Point(898, 3)
+        Me.btnDescargarReportes.Name = "btnDescargarReportes"
+        Me.btnDescargarReportes.Size = New System.Drawing.Size(131, 83)
+        Me.btnDescargarReportes.TabIndex = 1
+        Me.btnDescargarReportes.Text = "Descargar Reportes"
+        Me.btnDescargarReportes.UseVisualStyleBackColor = False
         '
         'DataGridView1
         '
         Me.DataGridView1.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataGridView1.Location = New System.Drawing.Point(0, 0)
+        Me.DataGridView1.Location = New System.Drawing.Point(3, 3)
         Me.DataGridView1.Name = "DataGridView1"
+        Me.DataGridView1.RowHeadersWidth = 62
         Me.DataGridView1.RowTemplate.Height = 28
-        Me.DataGridView1.Size = New System.Drawing.Size(485, 289)
+        Me.DataGridView1.Size = New System.Drawing.Size(864, 537)
         Me.DataGridView1.TabIndex = 0
         '
-        'SplitContainer5
+        'lblTituloTabControl
         '
-        Me.SplitContainer5.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer5.Location = New System.Drawing.Point(2, 2)
-        Me.SplitContainer5.Name = "SplitContainer5"
+        Me.lblTituloTabControl.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom), System.Windows.Forms.AnchorStyles)
+        Me.lblTituloTabControl.AutoSize = True
+        Me.lblTituloTabControl.Font = New System.Drawing.Font("Verdana", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTituloTabControl.Location = New System.Drawing.Point(457, 0)
+        Me.lblTituloTabControl.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
+        Me.lblTituloTabControl.Name = "lblTituloTabControl"
+        Me.lblTituloTabControl.Size = New System.Drawing.Size(159, 64)
+        Me.lblTituloTabControl.TabIndex = 0
+        Me.lblTituloTabControl.Text = "BIENVENIDA"
+        Me.lblTituloTabControl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'SplitContainer5.Panel1
+        'TableLayoutPanel3
         '
-        Me.SplitContainer5.Panel1.BackColor = System.Drawing.Color.Lavender
-        '
-        'SplitContainer5.Panel2
-        '
-        Me.SplitContainer5.Panel2.Controls.Add(Me.DataGridView2)
-        Me.SplitContainer5.Size = New System.Drawing.Size(596, 289)
-        Me.SplitContainer5.SplitterDistance = 108
-        Me.SplitContainer5.TabIndex = 0
+        Me.TableLayoutPanel3.ColumnCount = 2
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.38573!))
+        Me.TableLayoutPanel3.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.61427!))
+        Me.TableLayoutPanel3.Controls.Add(Me.DataGridView2, 0, 0)
+        Me.TableLayoutPanel3.Controls.Add(Me.Button1, 1, 0)
+        Me.TableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel3.Location = New System.Drawing.Point(2, 2)
+        Me.TableLayoutPanel3.Name = "TableLayoutPanel3"
+        Me.TableLayoutPanel3.RowCount = 1
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel3.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel3.Size = New System.Drawing.Size(1057, 543)
+        Me.TableLayoutPanel3.TabIndex = 1
         '
         'DataGridView2
         '
         Me.DataGridView2.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView2.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataGridView2.Location = New System.Drawing.Point(0, 0)
+        Me.DataGridView2.Location = New System.Drawing.Point(3, 3)
         Me.DataGridView2.Name = "DataGridView2"
+        Me.DataGridView2.RowHeadersWidth = 62
         Me.DataGridView2.RowTemplate.Height = 28
-        Me.DataGridView2.Size = New System.Drawing.Size(484, 289)
+        Me.DataGridView2.Size = New System.Drawing.Size(864, 537)
         Me.DataGridView2.TabIndex = 0
         '
-        'SplitContainer6
+        'Button1
         '
-        Me.SplitContainer6.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer6.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer6.Name = "SplitContainer6"
+        Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Button1.BackColor = System.Drawing.Color.Lavender
+        Me.Button1.Font = New System.Drawing.Font("Verdana", 7.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.Color.Black
+        Me.Button1.Location = New System.Drawing.Point(898, 3)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(131, 83)
+        Me.Button1.TabIndex = 1
+        Me.Button1.Text = "Descargar Reportes"
+        Me.Button1.UseVisualStyleBackColor = False
         '
-        'SplitContainer6.Panel1
+        'TableLayoutPanel4
         '
-        Me.SplitContainer6.Panel1.BackColor = System.Drawing.Color.Lavender
-        '
-        'SplitContainer6.Panel2
-        '
-        Me.SplitContainer6.Panel2.Controls.Add(Me.ListView1)
-        Me.SplitContainer6.Size = New System.Drawing.Size(600, 293)
-        Me.SplitContainer6.SplitterDistance = 110
-        Me.SplitContainer6.TabIndex = 0
-        '
-        'ListView1
-        '
-        Me.ListView1.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.ListView1.HideSelection = False
-        Me.ListView1.Location = New System.Drawing.Point(0, 0)
-        Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(486, 293)
-        Me.ListView1.TabIndex = 0
-        Me.ListView1.UseCompatibleStateImageBehavior = False
-        '
-        'SplitContainer7
-        '
-        Me.SplitContainer7.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.SplitContainer7.Location = New System.Drawing.Point(0, 0)
-        Me.SplitContainer7.Name = "SplitContainer7"
-        '
-        'SplitContainer7.Panel1
-        '
-        Me.SplitContainer7.Panel1.BackColor = System.Drawing.Color.Lavender
-        '
-        'SplitContainer7.Panel2
-        '
-        Me.SplitContainer7.Panel2.Controls.Add(Me.DataGridView3)
-        Me.SplitContainer7.Size = New System.Drawing.Size(600, 293)
-        Me.SplitContainer7.SplitterDistance = 110
-        Me.SplitContainer7.TabIndex = 0
+        Me.TableLayoutPanel4.ColumnCount = 2
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.38573!))
+        Me.TableLayoutPanel4.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.61427!))
+        Me.TableLayoutPanel4.Controls.Add(Me.DataGridView3, 0, 0)
+        Me.TableLayoutPanel4.Controls.Add(Me.Button2, 1, 0)
+        Me.TableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel4.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel4.Name = "TableLayoutPanel4"
+        Me.TableLayoutPanel4.RowCount = 1
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel4.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel4.Size = New System.Drawing.Size(1061, 547)
+        Me.TableLayoutPanel4.TabIndex = 1
         '
         'DataGridView3
         '
         Me.DataGridView3.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
         Me.DataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DataGridView3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.DataGridView3.Location = New System.Drawing.Point(0, 0)
+        Me.DataGridView3.Location = New System.Drawing.Point(3, 3)
         Me.DataGridView3.Name = "DataGridView3"
+        Me.DataGridView3.RowHeadersWidth = 62
         Me.DataGridView3.RowTemplate.Height = 28
-        Me.DataGridView3.Size = New System.Drawing.Size(486, 293)
+        Me.DataGridView3.Size = New System.Drawing.Size(868, 541)
         Me.DataGridView3.TabIndex = 0
+        '
+        'Button2
+        '
+        Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Button2.BackColor = System.Drawing.Color.Lavender
+        Me.Button2.Font = New System.Drawing.Font("Verdana", 7.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.Color.Black
+        Me.Button2.Location = New System.Drawing.Point(902, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(131, 83)
+        Me.Button2.TabIndex = 1
+        Me.Button2.Text = "Descargar Reportes"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
+        'TableLayoutPanel5
+        '
+        Me.TableLayoutPanel5.ColumnCount = 2
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 82.38573!))
+        Me.TableLayoutPanel5.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 17.61427!))
+        Me.TableLayoutPanel5.Controls.Add(Me.DataGridView4, 0, 0)
+        Me.TableLayoutPanel5.Controls.Add(Me.Button3, 1, 0)
+        Me.TableLayoutPanel5.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.TableLayoutPanel5.Location = New System.Drawing.Point(0, 0)
+        Me.TableLayoutPanel5.Name = "TableLayoutPanel5"
+        Me.TableLayoutPanel5.RowCount = 1
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel5.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
+        Me.TableLayoutPanel5.Size = New System.Drawing.Size(1061, 547)
+        Me.TableLayoutPanel5.TabIndex = 1
+        '
+        'DataGridView4
+        '
+        Me.DataGridView4.BackgroundColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.DataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView4.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.DataGridView4.Location = New System.Drawing.Point(3, 3)
+        Me.DataGridView4.Name = "DataGridView4"
+        Me.DataGridView4.RowHeadersWidth = 62
+        Me.DataGridView4.RowTemplate.Height = 28
+        Me.DataGridView4.Size = New System.Drawing.Size(868, 541)
+        Me.DataGridView4.TabIndex = 0
+        '
+        'Button3
+        '
+        Me.Button3.Anchor = System.Windows.Forms.AnchorStyles.Top
+        Me.Button3.BackColor = System.Drawing.Color.Lavender
+        Me.Button3.Font = New System.Drawing.Font("Verdana", 7.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button3.ForeColor = System.Drawing.Color.Black
+        Me.Button3.Location = New System.Drawing.Point(902, 3)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(131, 83)
+        Me.Button3.TabIndex = 1
+        Me.Button3.Text = "Descargar Reportes"
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'UserControlContenidoReportes1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(10.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Controls.Add(Me.SplitContainer1)
+        Me.AutoSize = True
+        Me.Controls.Add(Me.TableLayoutPanel2)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(2)
         Me.Name = "UserControlContenidoReportes1"
-        Me.Size = New System.Drawing.Size(608, 385)
-        Me.SplitContainer1.Panel1.ResumeLayout(False)
-        Me.SplitContainer1.Panel2.ResumeLayout(False)
-        CType(Me.SplitContainer1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer1.ResumeLayout(False)
-        Me.SplitContainer2.Panel2.ResumeLayout(False)
-        CType(Me.SplitContainer2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer2.ResumeLayout(False)
-        Me.SplitContainer3.Panel1.ResumeLayout(False)
-        Me.SplitContainer3.Panel1.PerformLayout()
-        Me.SplitContainer3.Panel2.ResumeLayout(False)
-        CType(Me.SplitContainer3, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer3.ResumeLayout(False)
+        Me.Size = New System.Drawing.Size(1073, 648)
+        Me.TableLayoutPanel2.ResumeLayout(False)
+        Me.TableLayoutPanel2.PerformLayout()
         Me.TabControl1.ResumeLayout(False)
-        Me.TabPage1.ResumeLayout(False)
-        Me.TabPage2.ResumeLayout(False)
-        Me.TabPage3.ResumeLayout(False)
         Me.TabPage4.ResumeLayout(False)
-        Me.SplitContainer4.Panel2.ResumeLayout(False)
-        CType(Me.SplitContainer4, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer4.ResumeLayout(False)
+        Me.TabPage3.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage1.ResumeLayout(False)
+        Me.TableLayoutPanel1.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer5.Panel2.ResumeLayout(False)
-        CType(Me.SplitContainer5, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer5.ResumeLayout(False)
+        Me.TableLayoutPanel3.ResumeLayout(False)
         CType(Me.DataGridView2, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer6.Panel2.ResumeLayout(False)
-        CType(Me.SplitContainer6, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer6.ResumeLayout(False)
-        Me.SplitContainer7.Panel2.ResumeLayout(False)
-        CType(Me.SplitContainer7, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.SplitContainer7.ResumeLayout(False)
+        Me.TableLayoutPanel4.ResumeLayout(False)
         CType(Me.DataGridView3, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TableLayoutPanel5.ResumeLayout(False)
+        CType(Me.DataGridView4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents SplitContainer1 As SplitContainer
-    Friend WithEvents SplitContainer2 As SplitContainer
-    Friend WithEvents SplitContainer3 As SplitContainer
+    Friend WithEvents TableLayoutPanel2 As TableLayoutPanel
     Friend WithEvents TabControl1 As TabControl
     Friend WithEvents TabPage1 As TabPage
+    Friend WithEvents TableLayoutPanel1 As TableLayoutPanel
+    Friend WithEvents DataGridView1 As DataGridView
+    Friend WithEvents btnDescargarReportes As Button
     Friend WithEvents TabPage2 As TabPage
-    Friend WithEvents lblTituloTabControl As Label
-    Friend WithEvents btn_DescargarReporte As Button
     Friend WithEvents TabPage3 As TabPage
     Friend WithEvents TabPage4 As TabPage
-    Friend WithEvents SplitContainer4 As SplitContainer
-    Friend WithEvents DataGridView1 As DataGridView
-    Friend WithEvents SplitContainer5 As SplitContainer
+    Friend WithEvents lblTituloTabControl As Label
+    Friend WithEvents TableLayoutPanel3 As TableLayoutPanel
     Friend WithEvents DataGridView2 As DataGridView
-    Friend WithEvents SplitContainer6 As SplitContainer
-    Friend WithEvents ListView1 As ListView
-    Friend WithEvents SplitContainer7 As SplitContainer
+    Friend WithEvents Button1 As Button
+    Friend WithEvents TableLayoutPanel4 As TableLayoutPanel
     Friend WithEvents DataGridView3 As DataGridView
+    Friend WithEvents Button2 As Button
+    Friend WithEvents TableLayoutPanel5 As TableLayoutPanel
+    Friend WithEvents DataGridView4 As DataGridView
+    Friend WithEvents Button3 As Button
 End Class
