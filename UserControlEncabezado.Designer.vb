@@ -22,6 +22,7 @@ Partial Class UserControlEncabezado
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(UserControlEncabezado))
         Me.lblTituloEncabezado = New System.Windows.Forms.Label()
         Me.lblTituloEncabezadoMenu = New System.Windows.Forms.Label()
         Me.PictureBox2 = New System.Windows.Forms.PictureBox()
@@ -39,11 +40,11 @@ Partial Class UserControlEncabezado
         Me.lblTituloEncabezado.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.lblTituloEncabezado.AutoSize = True
-        Me.lblTituloEncabezado.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTituloEncabezado.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTituloEncabezado.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.lblTituloEncabezado.Location = New System.Drawing.Point(778, 0)
+        Me.lblTituloEncabezado.Location = New System.Drawing.Point(433, 0)
         Me.lblTituloEncabezado.Name = "lblTituloEncabezado"
-        Me.lblTituloEncabezado.Size = New System.Drawing.Size(230, 95)
+        Me.lblTituloEncabezado.Size = New System.Drawing.Size(190, 75)
         Me.lblTituloEncabezado.TabIndex = 0
         Me.lblTituloEncabezado.Text = "BIBLIOTECARIO"
         Me.lblTituloEncabezado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -54,38 +55,35 @@ Partial Class UserControlEncabezado
             Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.lblTituloEncabezadoMenu.AutoSize = True
         Me.lblTituloEncabezadoMenu.Cursor = System.Windows.Forms.Cursors.Default
-        Me.lblTituloEncabezadoMenu.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTituloEncabezadoMenu.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTituloEncabezadoMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.lblTituloEncabezadoMenu.Location = New System.Drawing.Point(219, 0)
+        Me.lblTituloEncabezadoMenu.Location = New System.Drawing.Point(112, 0)
         Me.lblTituloEncabezadoMenu.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTituloEncabezadoMenu.Name = "lblTituloEncabezadoMenu"
-        Me.lblTituloEncabezadoMenu.Size = New System.Drawing.Size(154, 95)
+        Me.lblTituloEncabezadoMenu.Size = New System.Drawing.Size(132, 75)
         Me.lblTituloEncabezadoMenu.TabIndex = 0
         Me.lblTituloEncabezadoMenu.Text = "REPORTES"
         Me.lblTituloEncabezadoMenu.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'PictureBox2
         '
-        Me.PictureBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox2.Image = Global.Formulario_de_Administrador.My.Resources.Resources.icoReportes
+        Me.PictureBox2.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoReportes
         Me.PictureBox2.Location = New System.Drawing.Point(4, 3)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(103, 89)
+        Me.PictureBox2.Size = New System.Drawing.Size(100, 66)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
         '
         'PictureBox1
         '
-        Me.PictureBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox1.Image = Global.Formulario_de_Administrador.My.Resources.Resources.icoPerfil
-        Me.PictureBox1.Location = New System.Drawing.Point(1018, 3)
+        Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(632, 3)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(83, 89)
+        Me.PictureBox1.Size = New System.Drawing.Size(87, 69)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -95,7 +93,7 @@ Partial Class UserControlEncabezado
         Me.PictureBox3.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
             Or System.Windows.Forms.AnchorStyles.Left) _
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.PictureBox3.Image = Global.Formulario_de_Administrador.My.Resources.Resources.icoReportes
+        Me.PictureBox3.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoReportes
         Me.PictureBox3.Location = New System.Drawing.Point(90, 3)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(72, 43)
@@ -109,7 +107,7 @@ Partial Class UserControlEncabezado
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.8607!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.13931!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 239.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 93.0!))
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 96.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox2, 0, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 3, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.lblTituloEncabezadoMenu, 1, 0)
@@ -120,7 +118,7 @@ Partial Class UserControlEncabezado
         Me.TableLayoutPanel1.RowCount = 1
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
         Me.TableLayoutPanel1.RowStyles.Add(New System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50.0!))
-        Me.TableLayoutPanel1.Size = New System.Drawing.Size(1105, 95)
+        Me.TableLayoutPanel1.Size = New System.Drawing.Size(723, 75)
         Me.TableLayoutPanel1.TabIndex = 1
         '
         'UserControlEncabezado
@@ -133,7 +131,7 @@ Partial Class UserControlEncabezado
         Me.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.Name = "UserControlEncabezado"
         Me.Padding = New System.Windows.Forms.Padding(5)
-        Me.Size = New System.Drawing.Size(1115, 105)
+        Me.Size = New System.Drawing.Size(733, 85)
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()

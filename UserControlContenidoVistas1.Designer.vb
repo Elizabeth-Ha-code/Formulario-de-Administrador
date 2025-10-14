@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class UserControlContenidoConsultas1
+Partial Class UserControlContenidoVistas1
     Inherits System.Windows.Forms.UserControl
 
     'UserControl reemplaza a Dispose para limpiar la lista de componentes.
@@ -22,28 +22,16 @@ Partial Class UserControlContenidoConsultas1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(334, 286)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(290, 157)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
-        '
-        'UserControlContenidoConsultas1
+        'UserControlContenidoVistas1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.Controls.Add(Me.Button1)
-        Me.Name = "UserControlContenidoConsultas1"
-        Me.Size = New System.Drawing.Size(846, 624)
+        Me.Name = "UserControlContenidoVistas1"
+        Me.Size = New System.Drawing.Size(1073, 648)
         Me.ResumeLayout(False)
 
     End Sub
 
-    Friend WithEvents Button1 As Button
 End Class

@@ -22,8 +22,16 @@ Partial Class UserControlContenidoPrestamo1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        components = New System.ComponentModel.Container()
+        Me.SuspendLayout()
+        '
+        'UserControlContenidoPrestamo1
+        '
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Name = "UserControlContenidoPrestamo1"
+        Me.Size = New System.Drawing.Size(1073, 648)
+        Me.ResumeLayout(False)
+
     End Sub
 
 End Class
