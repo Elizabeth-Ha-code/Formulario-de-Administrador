@@ -184,11 +184,20 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoClientes1.resx">
+      <DependentUpon>UserControlContenidoClientes1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlContenidoConsultas1.resx">
       <DependentUpon>UserControlContenidoConsultas1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlContenidoGestionarCatálogo1.resx">
       <DependentUpon>UserControlContenidoGestionarCatálogo1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoInicio1.resx">
+      <DependentUpon>UserControlContenidoInicio1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoLibros1.resx">
+      <DependentUpon>UserControlContenidoLibros1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlContenidoMensajeria1.resx">
       <DependentUpon>UserControlContenidoMensajeria1.vb</DependentUpon>

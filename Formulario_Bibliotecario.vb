@@ -37,7 +37,7 @@
         Panel1.Controls.Clear()
 
         Select Case texto
-            Case "iNICIO"
+            Case "INICIO"
                 Panel1.Controls.Add(ucInicio)
             Case "LIBROS"
                 Panel1.Controls.Add(ucLibro)

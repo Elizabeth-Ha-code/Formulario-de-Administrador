@@ -22,16 +22,29 @@ Partial Class UserControlContenidoPrestamo1
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(415, 314)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(245, 20)
+        Me.Label1.TabIndex = 1
+        Me.Label1.Text = "FORMULARIO  DE  PRESTAMO"
         '
         'UserControlContenidoPrestamo1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.Controls.Add(Me.Label1)
         Me.Name = "UserControlContenidoPrestamo1"
         Me.Size = New System.Drawing.Size(1073, 648)
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
 
+    Friend WithEvents Label1 As Label
 End Class
