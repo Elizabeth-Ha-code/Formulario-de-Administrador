@@ -73,17 +73,17 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.vb">
-      <SubType>Form</SubType>
+    <Compile Include="Formulario_Bibliotecario.Designer.vb">
+      <DependentUpon>Formulario_Bibliotecario.vb</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.vb">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <Compile Include="Formulario_Bibliotecario.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
       <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="My Project\Resources.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -95,6 +95,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="UserControlContenidoClientes1.Designer.vb">
+      <DependentUpon>UserControlContenidoClientes1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoClientes1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="UserControlContenidoConsultas1.Designer.vb">
       <DependentUpon>UserControlContenidoConsultas1.vb</DependentUpon>
     </Compile>
@@ -105,6 +111,24 @@
       <DependentUpon>UserControlContenidoGestionarCatálogo1.vb</DependentUpon>
     </Compile>
     <Compile Include="UserControlContenidoGestionarCatálogo1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlContenidoInicio1.Designer.vb">
+      <DependentUpon>UserControlContenidoInicio1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoInicio1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlContenidoLibros1.Designer.vb">
+      <DependentUpon>UserControlContenidoLibros1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoLibros1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlContenidoMensajeria1.Designer.vb">
+      <DependentUpon>UserControlContenidoMensajeria1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoMensajeria1.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlContenidoPrestamo1.Designer.vb">
@@ -119,10 +143,22 @@
     <Compile Include="UserControlContenidoReportes1.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="UserControlContenidosLibros1.Designer.vb">
+      <DependentUpon>UserControlContenidosLibros1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidosLibros1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Include="UserControlContenidoSolicitudDeLibro1.Designer.vb">
       <DependentUpon>UserControlContenidoSolicitudDeLibro1.vb</DependentUpon>
     </Compile>
     <Compile Include="UserControlContenidoSolicitudDeLibro1.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControlContenidoVistas1.Designer.vb">
+      <DependentUpon>UserControlContenidoVistas1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlContenidoVistas1.vb">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="UserControlEncabezado.Designer.vb">
@@ -139,20 +175,47 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.vb</DependentUpon>
+    <EmbeddedResource Include="Formulario_Bibliotecario.resx">
+      <DependentUpon>Formulario_Bibliotecario.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoClientes1.resx">
+      <DependentUpon>UserControlContenidoClientes1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoConsultas1.resx">
+      <DependentUpon>UserControlContenidoConsultas1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlContenidoGestionarCatálogo1.resx">
       <DependentUpon>UserControlContenidoGestionarCatálogo1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoInicio1.resx">
+      <DependentUpon>UserControlContenidoInicio1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoLibros1.resx">
+      <DependentUpon>UserControlContenidoLibros1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoMensajeria1.resx">
+      <DependentUpon>UserControlContenidoMensajeria1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoPrestamo1.resx">
+      <DependentUpon>UserControlContenidoPrestamo1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UserControlContenidoReportes1.resx">
       <DependentUpon>UserControlContenidoReportes1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidosLibros1.resx">
+      <DependentUpon>UserControlContenidosLibros1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoSolicitudDeLibro1.resx">
+      <DependentUpon>UserControlContenidoSolicitudDeLibro1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControlContenidoVistas1.resx">
+      <DependentUpon>UserControlContenidoVistas1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserControlEncabezado.resx">
       <DependentUpon>UserControlEncabezado.vb</DependentUpon>
@@ -173,50 +236,20 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <None Include="Resources\Image1.bmp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoPrestamos.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icomensajería.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoPreguntas.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoGestionarCatálogo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoLibros.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoSolicitud.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoClientes.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoInicio.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoLibro.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoVista.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoPrestamo.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoPerfil.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\icoReportes.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\libro.png" />
+    <Content Include="Resources\iconos\iconosEncabezado\iconoPerfil.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoClientes.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoGestionarCatálogo.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoInicio.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoLibro.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoLibros.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconomensajería.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoPreguntas.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoPrestamo.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoReportes.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoSolicitud.png" />
+    <Content Include="Resources\iconos\iconosNavegacion\iconoVista.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

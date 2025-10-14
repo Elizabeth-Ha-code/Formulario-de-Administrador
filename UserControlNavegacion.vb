@@ -20,25 +20,25 @@
         ' Según el nombre del ítem o Tag, se asigna imagen y texto
         Select Case item.Name
             Case "btn_NavInicioToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoInicio, "Inicio")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoInicio, "INICIO")
             Case "btn_NavLIBROSToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoLibros, "Libros")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoLibros, "LIBROS")
             Case "btn_NavPRESTAMOSToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoPrestamo, "Préstamos")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoPrestamo, "PRÉSTAMOS")
             Case "btn_NavMENSAJERÍAToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icomensajería, "Mensajería")
+                RaiseEvent ItemSeleccionado(My.Resources.iconomensajería, "MENSAJERÍA")
             Case "btn_NavCLIENTESToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoClientes, "Clientes")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoClientes, "CLIENTES")
             Case "btn_NavVISTASToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoVista, "Vistas")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoVista, "VISTAS")
             Case "btn_NavREPORTESToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoReportes, "Reportes")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoReportes, "REPORTES")
             Case "btn_NavSOLICITUDToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoSolicitud, "Solicitud")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoSolicitud, "SOLICITUD DE LIBROS")
             Case "btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoGestionarCatálogo, "Gestión de catálogos")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoGestionarCatálogo, "GESTIÓN DE CATÁLOGO")
             Case "btn_NavCONSULTASToolStripMenuItem"
-                RaiseEvent ItemSeleccionado(My.Resources.icoPreguntas, "Consultas")
+                RaiseEvent ItemSeleccionado(My.Resources.iconoPreguntas, "CONSULTAS")
         End Select
 
     End Sub

@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
-Partial Class UserControlContenidoGestionarCatálogo1
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+Partial Class UserControlContenidoMensajeria1
     Inherits System.Windows.Forms.UserControl
 
     'UserControl reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()>
+    <System.Diagnostics.DebuggerNonUserCode()> _
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class UserControlContenidoGestionarCatálogo1
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()>
+    <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
@@ -30,16 +30,16 @@ Partial Class UserControlContenidoGestionarCatálogo1
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(415, 314)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(343, 20)
+        Me.Label1.Size = New System.Drawing.Size(264, 20)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "FORMULARIO  DE  GESTIONAR CATALOGO"
+        Me.Label1.Text = "FORMULARIO  DE  MENSAJERIA "
         '
-        'UserControlContenidoGestionarCatálogo1
+        'UserControlContenidoMensajeria1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(9.0!, 20.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.Controls.Add(Me.Label1)
-        Me.Name = "UserControlContenidoGestionarCatálogo1"
+        Me.Name = "UserControlContenidoMensajeria1"
         Me.Size = New System.Drawing.Size(1073, 648)
         Me.ResumeLayout(False)
         Me.PerformLayout()
