@@ -59,7 +59,7 @@ Partial Class UserControlNavegacion
         Me.MenuStripMenuNavegacion.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional
         Me.MenuStripMenuNavegacion.RightToLeft = System.Windows.Forms.RightToLeft.No
         Me.MenuStripMenuNavegacion.ShowItemToolTips = True
-        Me.MenuStripMenuNavegacion.Size = New System.Drawing.Size(232, 361)
+        Me.MenuStripMenuNavegacion.Size = New System.Drawing.Size(272, 361)
         Me.MenuStripMenuNavegacion.TabIndex = 3
         Me.MenuStripMenuNavegacion.Text = "MenuStrip1"
         '
@@ -68,7 +68,7 @@ Partial Class UserControlNavegacion
         Me.btn_NavInicioToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoInicio
         Me.btn_NavInicioToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavInicioToolStripMenuItem.Name = "btn_NavInicioToolStripMenuItem"
-        Me.btn_NavInicioToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavInicioToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavInicioToolStripMenuItem.Text = "INICO"
         Me.btn_NavInicioToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavInicioToolStripMenuItem.ToolTipText = "Ir a inicio de página " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
@@ -78,7 +78,7 @@ Partial Class UserControlNavegacion
         Me.btn_NavLIBROSToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoLibros
         Me.btn_NavLIBROSToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavLIBROSToolStripMenuItem.Name = "btn_NavLIBROSToolStripMenuItem"
-        Me.btn_NavLIBROSToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavLIBROSToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavLIBROSToolStripMenuItem.Text = "LIBROS "
         Me.btn_NavLIBROSToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavLIBROSToolStripMenuItem.ToolTipText = "Ver Libros disponibles "
@@ -89,7 +89,7 @@ Partial Class UserControlNavegacion
         Me.btn_NavPRESTAMOSToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoPrestamo
         Me.btn_NavPRESTAMOSToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavPRESTAMOSToolStripMenuItem.Name = "btn_NavPRESTAMOSToolStripMenuItem"
-        Me.btn_NavPRESTAMOSToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavPRESTAMOSToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavPRESTAMOSToolStripMenuItem.Text = "PRESTAMOS "
         Me.btn_NavPRESTAMOSToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavPRESTAMOSToolStripMenuItem.ToolTipText = "Ver prestamos realizados "
@@ -99,7 +99,7 @@ Partial Class UserControlNavegacion
         Me.btn_NavMENSAJERÍAToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconomensajería
         Me.btn_NavMENSAJERÍAToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavMENSAJERÍAToolStripMenuItem.Name = "btn_NavMENSAJERÍAToolStripMenuItem"
-        Me.btn_NavMENSAJERÍAToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavMENSAJERÍAToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavMENSAJERÍAToolStripMenuItem.Text = "MENSAJERÍA "
         Me.btn_NavMENSAJERÍAToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavMENSAJERÍAToolStripMenuItem.ToolTipText = "Ver mensajes "
@@ -109,7 +109,7 @@ Partial Class UserControlNavegacion
         Me.btn_NavCLIENTESToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoClientes
         Me.btn_NavCLIENTESToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavCLIENTESToolStripMenuItem.Name = "btn_NavCLIENTESToolStripMenuItem"
-        Me.btn_NavCLIENTESToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavCLIENTESToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavCLIENTESToolStripMenuItem.Text = "CLIENTES"
         Me.btn_NavCLIENTESToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavCLIENTESToolStripMenuItem.ToolTipText = "Ver Clientes "
@@ -119,7 +119,7 @@ Partial Class UserControlNavegacion
         Me.btn_NavVISTASToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoVista
         Me.btn_NavVISTASToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavVISTASToolStripMenuItem.Name = "btn_NavVISTASToolStripMenuItem"
-        Me.btn_NavVISTASToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavVISTASToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavVISTASToolStripMenuItem.Text = "VISTAS"
         Me.btn_NavVISTASToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -128,16 +128,16 @@ Partial Class UserControlNavegacion
         Me.btn_NavREPORTESToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoReportes
         Me.btn_NavREPORTESToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavREPORTESToolStripMenuItem.Name = "btn_NavREPORTESToolStripMenuItem"
-        Me.btn_NavREPORTESToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavREPORTESToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavREPORTESToolStripMenuItem.Text = "REPORTES"
         Me.btn_NavREPORTESToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
         'btn_NavSOLICITUDToolStripMenuItem
         '
-        Me.btn_NavSOLICITUDToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoPrestamo
+        Me.btn_NavSOLICITUDToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoSolicitud
         Me.btn_NavSOLICITUDToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavSOLICITUDToolStripMenuItem.Name = "btn_NavSOLICITUDToolStripMenuItem"
-        Me.btn_NavSOLICITUDToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavSOLICITUDToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavSOLICITUDToolStripMenuItem.Text = "SOLICITUD DE LIBROS "
         Me.btn_NavSOLICITUDToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavSOLICITUDToolStripMenuItem.ToolTipText = "Ver Solisitudes de los Clientes"
@@ -147,7 +147,7 @@ Partial Class UserControlNavegacion
         Me.btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoLibro
         Me.btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem.Name = "btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem"
-        Me.btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem.Text = "GESTIÓN DE CATÁLOGOS"
         Me.btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavGESTIÓNDECATÁLOGOSToolStripMenuItem.ToolTipText = "Ver Catálogos disponibles"
@@ -157,7 +157,7 @@ Partial Class UserControlNavegacion
         Me.btn_NavCONSULTASToolStripMenuItem.Image = Global.Formulario_de_Administrador.My.Resources.Resources.iconoPreguntas
         Me.btn_NavCONSULTASToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
         Me.btn_NavCONSULTASToolStripMenuItem.Name = "btn_NavCONSULTASToolStripMenuItem"
-        Me.btn_NavCONSULTASToolStripMenuItem.Size = New System.Drawing.Size(219, 28)
+        Me.btn_NavCONSULTASToolStripMenuItem.Size = New System.Drawing.Size(259, 29)
         Me.btn_NavCONSULTASToolStripMenuItem.Text = "CONSULTAS"
         Me.btn_NavCONSULTASToolStripMenuItem.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
         '
@@ -172,7 +172,7 @@ Partial Class UserControlNavegacion
         'SplitContainer1.Panel2
         '
         Me.SplitContainer1.Panel2.Controls.Add(Me.SplitContainer2)
-        Me.SplitContainer1.Size = New System.Drawing.Size(232, 527)
+        Me.SplitContainer1.Size = New System.Drawing.Size(272, 527)
         Me.SplitContainer1.SplitterDistance = 75
         Me.SplitContainer1.SplitterWidth = 1
         Me.SplitContainer1.TabIndex = 4
@@ -188,7 +188,7 @@ Partial Class UserControlNavegacion
         'SplitContainer2.Panel1
         '
         Me.SplitContainer2.Panel1.Controls.Add(Me.MenuStripMenuNavegacion)
-        Me.SplitContainer2.Size = New System.Drawing.Size(232, 451)
+        Me.SplitContainer2.Size = New System.Drawing.Size(272, 451)
         Me.SplitContainer2.SplitterDistance = 361
         Me.SplitContainer2.SplitterWidth = 1
         Me.SplitContainer2.TabIndex = 0
@@ -202,7 +202,7 @@ Partial Class UserControlNavegacion
         Me.Font = New System.Drawing.Font("Verdana", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Margin = New System.Windows.Forms.Padding(5, 4, 5, 4)
         Me.Name = "UserControlNavegacion"
-        Me.Size = New System.Drawing.Size(232, 527)
+        Me.Size = New System.Drawing.Size(272, 527)
         Me.MenuStripMenuNavegacion.ResumeLayout(False)
         Me.MenuStripMenuNavegacion.PerformLayout()
         Me.SplitContainer1.Panel2.ResumeLayout(False)

@@ -73,6 +73,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FormContenidoReportesActividadSemanalFiltrosDePeriodo.Designer.vb">
+      <DependentUpon>FormContenidoReportesActividadSemanalFiltrosDePeriodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormContenidoReportesActividadSemanalFiltrosDePeriodo.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Formulario_Bibliotecario.Designer.vb">
       <DependentUpon>Formulario_Bibliotecario.vb</DependentUpon>
     </Compile>
@@ -175,6 +181,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="FormContenidoReportesActividadSemanalFiltrosDePeriodo.resx">
+      <DependentUpon>FormContenidoReportesActividadSemanalFiltrosDePeriodo.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Formulario_Bibliotecario.resx">
       <DependentUpon>Formulario_Bibliotecario.vb</DependentUpon>
     </EmbeddedResource>
@@ -238,6 +247,7 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Resources\iconos\iconoContenidoReporte\iconoFiltro.png" />
     <Content Include="Resources\iconos\iconosEncabezado\iconoPerfil.png" />
     <Content Include="Resources\iconos\iconosNavegacion\iconoClientes.png" />
     <Content Include="Resources\iconos\iconosNavegacion\iconoGestionarCatálogo.png" />
