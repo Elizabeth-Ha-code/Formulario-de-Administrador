@@ -23,9 +23,9 @@ Partial Class Formulario_Bibliotecario
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.UserControlContenidoReportes11 = New Formulario_de_Administrador.UserControlContenidoReportes1()
         Me.UserControlEncabezado1 = New Formulario_de_Administrador.UserControlEncabezado()
         Me.UserControlNavegacion1 = New Formulario_de_Administrador.UserControlNavegacion()
+        Me.UserControlContenidoReportes11 = New Formulario_de_Administrador.UserControlContenidoReportes1()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -39,17 +39,6 @@ Partial Class Formulario_Bibliotecario
         Me.Panel1.Padding = New System.Windows.Forms.Padding(5)
         Me.Panel1.Size = New System.Drawing.Size(893, 573)
         Me.Panel1.TabIndex = 2
-        '
-        'UserControlContenidoReportes11
-        '
-        Me.UserControlContenidoReportes11.AutoSize = True
-        Me.UserControlContenidoReportes11.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.UserControlContenidoReportes11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.UserControlContenidoReportes11.Location = New System.Drawing.Point(5, 5)
-        Me.UserControlContenidoReportes11.Margin = New System.Windows.Forms.Padding(2)
-        Me.UserControlContenidoReportes11.Name = "UserControlContenidoReportes11"
-        Me.UserControlContenidoReportes11.Size = New System.Drawing.Size(879, 559)
-        Me.UserControlContenidoReportes11.TabIndex = 0
         '
         'UserControlEncabezado1
         '
@@ -74,6 +63,17 @@ Partial Class Formulario_Bibliotecario
         Me.UserControlNavegacion1.Name = "UserControlNavegacion1"
         Me.UserControlNavegacion1.Size = New System.Drawing.Size(281, 673)
         Me.UserControlNavegacion1.TabIndex = 0
+        '
+        'UserControlContenidoReportes11
+        '
+        Me.UserControlContenidoReportes11.AutoSize = True
+        Me.UserControlContenidoReportes11.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.UserControlContenidoReportes11.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.UserControlContenidoReportes11.Location = New System.Drawing.Point(5, 5)
+        Me.UserControlContenidoReportes11.Margin = New System.Windows.Forms.Padding(2)
+        Me.UserControlContenidoReportes11.Name = "UserControlContenidoReportes11"
+        Me.UserControlContenidoReportes11.Size = New System.Drawing.Size(879, 559)
+        Me.UserControlContenidoReportes11.TabIndex = 0
         '
         'Formulario_Bibliotecario
         '

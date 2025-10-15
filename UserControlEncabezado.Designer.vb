@@ -42,7 +42,7 @@ Partial Class UserControlEncabezado
         Me.lblTituloEncabezado.AutoSize = True
         Me.lblTituloEncabezado.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTituloEncabezado.ImageAlign = System.Drawing.ContentAlignment.MiddleRight
-        Me.lblTituloEncabezado.Location = New System.Drawing.Point(433, 0)
+        Me.lblTituloEncabezado.Location = New System.Drawing.Point(432, 0)
         Me.lblTituloEncabezado.Name = "lblTituloEncabezado"
         Me.lblTituloEncabezado.Size = New System.Drawing.Size(190, 75)
         Me.lblTituloEncabezado.TabIndex = 0
@@ -57,7 +57,7 @@ Partial Class UserControlEncabezado
         Me.lblTituloEncabezadoMenu.Cursor = System.Windows.Forms.Cursors.Default
         Me.lblTituloEncabezadoMenu.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTituloEncabezadoMenu.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft
-        Me.lblTituloEncabezadoMenu.Location = New System.Drawing.Point(112, 0)
+        Me.lblTituloEncabezadoMenu.Location = New System.Drawing.Point(111, 0)
         Me.lblTituloEncabezadoMenu.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.lblTituloEncabezadoMenu.Name = "lblTituloEncabezadoMenu"
         Me.lblTituloEncabezadoMenu.Size = New System.Drawing.Size(132, 75)
@@ -71,7 +71,7 @@ Partial Class UserControlEncabezado
         Me.PictureBox2.Location = New System.Drawing.Point(4, 3)
         Me.PictureBox2.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(100, 66)
+        Me.PictureBox2.Size = New System.Drawing.Size(87, 52)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox2.TabIndex = 0
         Me.PictureBox2.TabStop = False
@@ -80,10 +80,10 @@ Partial Class UserControlEncabezado
         '
         Me.PictureBox1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(632, 3)
+        Me.PictureBox1.Location = New System.Drawing.Point(656, 3)
         Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4, 3, 4, 3)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(87, 69)
+        Me.PictureBox1.Size = New System.Drawing.Size(63, 52)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
@@ -107,11 +107,11 @@ Partial Class UserControlEncabezado
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.8607!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 72.13931!))
         Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 239.0!))
-        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 96.0!))
-        Me.TableLayoutPanel1.Controls.Add(Me.PictureBox2, 0, 0)
+        Me.TableLayoutPanel1.ColumnStyles.Add(New System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 97.0!))
         Me.TableLayoutPanel1.Controls.Add(Me.PictureBox1, 3, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.lblTituloEncabezadoMenu, 1, 0)
         Me.TableLayoutPanel1.Controls.Add(Me.lblTituloEncabezado, 2, 0)
+        Me.TableLayoutPanel1.Controls.Add(Me.PictureBox2, 0, 0)
         Me.TableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.TableLayoutPanel1.Location = New System.Drawing.Point(5, 5)
         Me.TableLayoutPanel1.Name = "TableLayoutPanel1"
